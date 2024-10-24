@@ -70,5 +70,3 @@ console.log(fruit) // aaba array banana bata suru hunxa
 console.log(fruit.at(0))
 // array ko element kun index ma xa vanera herna ko lagi .indexof() method use hunxa
 console.log(marks.indexOf(100.5))
-
-
