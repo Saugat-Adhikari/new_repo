@@ -47,3 +47,5 @@ console.log(split)
 console.log(object.keys(obj_name))
 */
 
+// my name is saugat adhikari
+console.log("saugat is my name")
