@@ -81,4 +81,77 @@ for(let $ind of hapta){
 }
 
 
+//slice--------->n index bata n-1 
+// .slice(a,b)   -----> a index bata b-a ota data dekhauxa
+var one = [ "ram","shyam","hari","gita","sita","ramita"]
+var test = one.slice(2,6)
+console.log(test)
+
 // special loop for object -------> for in loop
+// obj
+// var data = {
+//     "name" : "saugat",
+//     "age" : 20,
+//     "locaion" : "pokhara"
+// }
+// // for in loop
+// for(let key in data){
+//     console.log(data[key])
+// }
+// // array in obj
+// for(let key of data){
+// console.log(data.name)
+// }
+//
+
+
+// function
+//regular and arrow function
+// regular
+//syntax:
+/**
+ * 
+ * function name(parameter){
+ * //statement
+ * }
+ */
+
+function intro(name){
+    console.log("hello my name is ",name)
+}
+
+intro("saugat")
+intro("ramesh")
+
+function addTwoNumber(num1,num2){
+    console.log(num1+num2)
+}
+
+// arrow function
+var sayHello = (name)=>{
+    console.log("hello",name)
+}
+sayHello("saugat")
+
+
+var addTwoNumber = (num1,num2=2)=> console.log(num1+num2)
+addTwoNumber(1)
+
+var foods = ['chowmein','momo','burger']
+var qq = [1,2,3,4,5,5]
+
+function khaja (foods){
+ for(let key of foods){
+    console.log(key)
+ }
+}
+
+khaja(foods)
+khaja(qq)
+
+let age = 20
+function log(console_log){
+    console.log(console_log)
+}
+log("saugat")
+log("saugat is ",age," years old .")
